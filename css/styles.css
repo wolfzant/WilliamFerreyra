@@ -159,8 +159,14 @@ main {
 }
 
 .galeria {
-    height: 430px;
-    width: 630px;
+    height: 300px;
+    width: 400px;
+    transition: height 1s, width 1s;
+}
+
+.galeria:hover {
+    height: 350px;
+    width: 500px;
 }
 
 .map {

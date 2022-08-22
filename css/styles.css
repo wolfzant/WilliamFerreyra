@@ -163,7 +163,7 @@ main {
     width: 630px;
 }
 
-/* .map {
+.map {
     width: 400px;
     height: 350px;
     transition: height 2s, width 2s;
@@ -172,7 +172,7 @@ main {
 .map:hover {
     width: 600px;
     height: 400px;
-} */
+}
 
 /*---------------------- formulario ----------------------*/
 

@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    background-color: #131313;
+    color: #A98642;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    align-items: center;
+    padding: 1em;
+    font-size: 14px;
+    width: 100%;
+    flex-wrap: wrap;
+    grid-area: header;
+    z-index: 100;
+    nav {
+        display: inline-block;
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    display: flex;
+                    color: #bbbbbb;
+                    text-decoration-line: none;
+                    list-style: none;
+                    align-items: center;
+                    font-size: 12px;
+                    padding: 0em 5em;
+                }
+            }
+        }
+    }
+}

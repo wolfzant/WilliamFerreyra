@@ -115,8 +115,7 @@ header nav ul li a {
 
 main {
     display: block;
-    padding: 1em;
-    padding-top: 6em;
+    padding-top: 3em;
     padding-bottom: 2em;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -128,6 +127,10 @@ main {
     background-size: cover;
     color: aliceblue;
     grid-area: main;
+}
+
+#texto {
+    padding: 1em;
 }
 
 .socio {

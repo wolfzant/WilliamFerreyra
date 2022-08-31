@@ -115,7 +115,7 @@ header nav ul li a {
 
 main {
     display: block;
-    padding-top: 3em;
+    padding-top: 5em;
     padding-bottom: 2em;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -187,6 +187,10 @@ main {
     height: 400px;
 }
 
+.motiva {
+    width: 100%;
+}
+
 /*---------------------- formulario ----------------------*/
 
 .form {
@@ -221,16 +225,19 @@ footer {
 
 /*-----------------------------------------------------------*/
 
+#video {
+    margin: 2em;
+    max-width: 720px;
+}
+
 .video-contenedor {
     position: relative;
-    align-items: center;
-    padding-bottom: 70%;
-    padding-top: 0px;
-    height: 0;
+    padding-top: 56.25%;
     overflow: hidden;
 }
 
 .video-contenedor iframe {
+    /* padding: 20px; */
     position: absolute;
     top: 0;
     left: 0;

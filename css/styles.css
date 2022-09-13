@@ -188,14 +188,7 @@ button {
   width: 100%;
   height: 100%; }
 
-@media screen and (max-width: 576px) and (min-width: 300px) {
-  #index {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "footer"; }
+@media screen and (max-width: 576px) {
   header {
     align-items: center;
     padding: 1em .5em;
@@ -208,8 +201,7 @@ button {
     background-size: cover;
     display: inline-block; }
   footer {
-    padding: 2em;
-    font-size: 9px;
+    font-size: 8px;
     color: white;
     background-color: black; } }
 

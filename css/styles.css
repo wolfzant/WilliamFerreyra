@@ -13,19 +13,26 @@ header {
   width: 100%;
   flex-wrap: wrap;
   grid-area: header;
-  z-index: 100; }
-  header nav {
-    display: inline-block; }
-    header nav ul li {
-      display: inline-block; }
-      header nav ul li a {
-        display: flex;
-        color: #bbbbbb;
-        text-decoration-line: none;
-        list-style: none;
-        align-items: center;
-        font-size: 12px;
-        padding: 0em 5em; }
+  z-index: 100; 
+}
+
+header nav {
+  display: inline-block; 
+}
+
+header nav ul li {
+  display: inline-block; 
+}
+
+header nav ul li a {
+  display: flex;
+  color: #bbbbbb;
+  text-decoration-line: none;
+  list-style: none;
+  align-items: center;
+  font-size: 12px;
+  padding: 0em 5em; 
+}
 
 .logo {
   display: flex;
@@ -47,7 +54,9 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "footer"; }
 
 /*---------------------------------------------------------*/
 /*--------------------- actividades grid ------------------*/
@@ -57,7 +66,9 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "header header " "main main" "footer footer"; }
+  grid-template-areas: "header header "
+ "main main"
+ "footer footer"; }
 
 #musc {
   display: flex;
@@ -192,7 +203,9 @@ button {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   /* 
     header {
         align-items: center;

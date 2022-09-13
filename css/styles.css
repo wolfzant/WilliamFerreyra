@@ -14,18 +14,19 @@ header {
   flex-wrap: wrap;
   grid-area: header;
   z-index: 100; }
-  header nav {
+  header nav button {
+    display: inline-block;
+    color: #bbbbbb; }
+  header nav div ul li {
     display: inline-block; }
-    header nav ul li {
-      display: inline-block; }
-      header nav ul li a {
-        display: flex;
-        color: #bbbbbb;
-        text-decoration-line: none;
-        list-style: none;
-        align-items: center;
-        font-size: 12px;
-        padding: 2em 4em; }
+    header nav div ul li a {
+      display: flex;
+      color: #bbbbbb;
+      text-decoration-line: none;
+      list-style: none;
+      align-items: center;
+      font-size: 12px;
+      padding: 2em 4em; }
 
 .logo {
   padding-left: 2em;
@@ -123,7 +124,8 @@ main {
 
 .salas {
   display: flex;
-  width: 30%; }
+  width: 30%;
+  height: 50%; }
 
 .sedes {
   height: 350px;
@@ -186,7 +188,7 @@ button {
   width: 100%;
   height: 100%; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) and (min-width: 300px) {
   #index {
     height: 100vh;
     width: 100%;
@@ -194,26 +196,22 @@ button {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "main" "footer"; }
-  /* 
-    header {
-        align-items: center;
-        padding: 1em .5em;
-        width: 100%;
-        flex-wrap: wrap;
-        position: static;
-        flex-direction: column;
-    }
-    main {
-        align-items: center;
-        width: 100%;
-        background-size: cover;
-    }
-    footer {
-        padding: 2em;
-        color: white;
-        background-color: rgb(0, 0, 0);
-        width: 100%;
-    } */ }
+  header {
+    align-items: center;
+    padding: 1em .5em;
+    flex-wrap: wrap;
+    position: static;
+    flex-direction: column;
+    display: flex; }
+  main {
+    width: 100vw;
+    background-size: cover;
+    display: inline-block; }
+  footer {
+    padding: 2em;
+    font-size: 9px;
+    color: white;
+    background-color: black; } }
 
 footer {
   padding: 1.2em;

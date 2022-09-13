@@ -13,10 +13,14 @@ header {
     grid-area: header;
     z-index: 100;
     nav {
-        display: inline-block;
-        ul li {
+        button {
             display: inline-block;
-            a {
+            color: #bbbbbb;
+        }
+        div {
+            ul li {
+                display: inline-block;
+                a {
                 display: flex;
                 color: #bbbbbb;
                 text-decoration-line: none;
@@ -24,8 +28,9 @@ header {
                 align-items: center;
                 font-size: 12px;
                 padding: 2em 4em;
-            }
-    }
+                }
+        }
+        }
     }
 }
 

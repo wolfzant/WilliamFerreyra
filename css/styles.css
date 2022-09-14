@@ -28,13 +28,12 @@ header {
       font-size: 12px;
       padding: 2em 4em; }
 
-.nav-link {
-  color: #bbbbbb;
-  text-decoration: none;
-  list-style: none; }
+nav.navbar ul.nav li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #bbbbbb; }
 
-.navbar {
-  text-decoration: none; }
+.nav-link {
+  color: #bbbbbb; }
 
 .logo {
   padding-left: 2em;

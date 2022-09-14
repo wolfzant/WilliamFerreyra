@@ -34,14 +34,13 @@ header {
     }
 }
 
-.nav-link {
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #bbbbbb;
-    text-decoration: none;
-    list-style: none;
 }
 
-.navbar {
-    text-decoration: none;
+.nav-link {
+    color: #bbbbbb;
 }
 
 .logo {

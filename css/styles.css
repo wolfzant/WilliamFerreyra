@@ -28,6 +28,14 @@ header {
       font-size: 12px;
       padding: 2em 4em; }
 
+.nav-link {
+  color: #bbbbbb;
+  text-decoration: none;
+  list-style: none; }
+
+.navbar {
+  text-decoration: none; }
+
 .logo {
   padding-left: 2em;
   display: flex;
@@ -196,6 +204,8 @@ button {
     position: static;
     flex-direction: column;
     display: flex; }
+    header div ul li {
+      display: flex; }
   main {
     width: 100vw;
     background-size: cover;

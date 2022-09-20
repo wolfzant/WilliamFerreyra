@@ -25,43 +25,22 @@ body {
 
 /*---------------------------------------------------------*/
 
-/*--------------------- actividades grid ------------------*/
-
-#actividades {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header "
-                         "main main"
-                         "footer footer";
-}
-
 #musc {
-    display: flex;
-    padding: 1em;
     background-color: #080808;
     grid-area: musc;
 }
 
 #func {
-    display: flex;
-    padding: 1em;
     background-color: #181818;
     grid-area: func;
 }
 
 #cross {
-    display: flex;
-    padding: 1em;
     background-color: #080808;
     grid-area: cross;
 }
 
 #power {
-    display: flex;
-    padding: 1em;
     background-color: #181818;
     grid-area: power;
 }
@@ -111,9 +90,8 @@ main {
 }
 
 .salas {
-    display: flex;
-    width: 30%;
-    height: 50%;
+    max-width: 100%;
+    padding: 1em;
 }
 
 .sedes {

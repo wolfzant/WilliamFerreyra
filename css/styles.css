@@ -20,7 +20,7 @@ header {
   header nav div ul li {
     display: inline-block; }
     header nav div ul li a {
-      display: flex;
+      display: inline-block;
       color: #bbbbbb;
       text-decoration-line: none;
       list-style: none;
@@ -30,7 +30,13 @@ header {
 
 nav.navbar ul.nav li {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #bbbbbb; }
+  color: #bbbbbb;
+  text-align: center;
+  align-items: center; }
+
+button {
+  align-items: center;
+  text-align: center; }
 
 .nav-link {
   color: #bbbbbb;
@@ -166,6 +172,7 @@ button {
     display: inline-block; }
   main {
     width: 100vw;
+    padding: 1em;
     background-size: cover;
     display: inline-block; }
   footer {

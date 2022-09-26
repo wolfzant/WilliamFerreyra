@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 header {
-  display: flex;
+  display: inline-block;
   background-color: #131313;
   color: #A98642;
   justify-content: space-between;
@@ -172,7 +172,7 @@ button {
     flex-wrap: wrap;
     position: static;
     flex-direction: column;
-    display: flex; }
+    display: inline-block; }
     header div ul li {
       display: flex; }
   main {

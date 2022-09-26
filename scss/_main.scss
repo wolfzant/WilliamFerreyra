@@ -160,7 +160,7 @@ button {
         flex-wrap: wrap;
         position: static;
         flex-direction: column;
-        display: flex;
+        display: inline-block;
         div {
             ul li {
                 display: flex;

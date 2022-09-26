@@ -33,14 +33,9 @@ nav.navbar ul.nav li {
   color: #bbbbbb; }
 
 .nav-link {
-  color: #bbbbbb; }
-
-.logo {
-  padding-left: 2em;
-  display: flex;
+  color: #bbbbbb;
   align-items: center;
-  color: #A98642;
-  text-decoration: none; }
+  text-align: center; }
 
 * {
   margin: 0;
@@ -103,7 +98,7 @@ main {
 
 .titpag {
   background-color: #AC9E83;
-  font-size: 40px;
+  width: 100%;
   color: #131313; }
 
 .lugares {
@@ -167,14 +162,8 @@ button {
 /*-----------------------------------------------------------*/
 @media screen and (max-width: 576px) {
   header {
-    align-items: center;
-    padding: 1em .5em;
-    flex-wrap: wrap;
     position: static;
-    flex-direction: column;
     display: inline-block; }
-    header div ul li {
-      display: flex; }
   main {
     width: 100vw;
     background-size: cover;

@@ -4,18 +4,17 @@ header {
   display: inline-block;
   background-color: #131313;
   color: #A98642;
-  justify-content: space-between;
   font-family: 'Oswald', sans-serif;
   position: fixed;
   align-items: center;
   padding: 1em;
   font-size: 14px;
   width: 100%;
-  flex-wrap: wrap;
-  grid-area: header;
-  z-index: 100; }
+  grid-area: header; }
   header nav button {
     display: inline-block;
+    text-align: center;
+    align-items: center;
     color: #bbbbbb; }
   header nav div ul li {
     display: inline-block; }
@@ -34,14 +33,11 @@ nav.navbar ul.nav li {
   text-align: center;
   align-items: center; }
 
-button {
-  align-items: center;
-  text-align: center; }
+button.navbar-toggler {
+  align-items: center; }
 
 .nav-link {
-  color: #bbbbbb;
-  align-items: center;
-  text-align: center; }
+  color: #bbbbbb; }
 
 * {
   margin: 0;

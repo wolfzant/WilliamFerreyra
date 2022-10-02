@@ -120,7 +120,9 @@ main {
 
 .sedes {
   height: 350px;
-  width: 550px; }
+  width: 500px;
+  max-width: 70%;
+  max-height: 50%; }
 
 .galeria {
   height: 300px;
@@ -136,11 +138,8 @@ main {
 .map {
   width: 400px;
   height: 350px;
-  transition: height 2s, width 2s; }
-
-.map:hover {
-  width: 600px;
-  height: 400px; }
+  max-width: 100%;
+  max-height: 10%; }
 
 .motiva {
   width: 100%; }
@@ -174,6 +173,33 @@ button {
   .galeria {
     width: 50%;
     height: 70%; }
+  .sedes {
+    width: 100%;
+    height: 70%; }
+  .map {
+    width: 90%; }
+  footer {
+    font-size: 8px;
+    color: white;
+    background-color: black; } }
+
+@media screen and (max-width: 990px) {
+  header {
+    position: static;
+    display: inline-block; }
+  main {
+    width: 100vw;
+    padding: 0em;
+    background-size: cover;
+    display: inline-block; }
+  .galeria {
+    width: 50%;
+    height: 70%; }
+  .sedes {
+    width: 100%;
+    height: 70%; }
+  .map {
+    width: 90%; }
   footer {
     font-size: 8px;
     color: white;

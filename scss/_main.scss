@@ -106,6 +106,12 @@ main {
     max-height: 50%;
 }
 
+.juntar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .galeria {
     height: 300px;
     width: 400px;
@@ -151,6 +157,10 @@ button {
     // font-size: 16px;
 }
 
+input {
+    width: 80%;
+}
+
 /*-----------------------------------------------------------*/
 
 @media screen and (max-width: 576px) {
@@ -159,7 +169,6 @@ button {
         display: inline-block;
     }
     main {
-        width: 100vw;
         padding: 1em;
         background-size: cover;
         display: inline-block;
@@ -175,6 +184,10 @@ button {
     .map {
         width: 90%;
     }
+    .juntar {
+        display: inline;
+        width: 100%;
+    }
     footer {
         font-size: 8px;
         color: white;
@@ -182,7 +195,7 @@ button {
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) and (min-width: 578px){
     header {
         position: static;
         display: inline-block;
@@ -203,6 +216,13 @@ button {
     }
     .map {
         width: 90%;
+    }
+    .juntar {
+        display: inline;
+        width: 100%;
+    }
+    input {
+        width: 50%;
     }
     footer {
         font-size: 8px;

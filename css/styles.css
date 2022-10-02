@@ -124,6 +124,11 @@ main {
   max-width: 70%;
   max-height: 50%; }
 
+.juntar {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .galeria {
   height: 300px;
   width: 400px;
@@ -160,13 +165,15 @@ button {
   margin-top: 2em;
   padding: 0.5em 1em; }
 
+input {
+  width: 80%; }
+
 /*-----------------------------------------------------------*/
 @media screen and (max-width: 576px) {
   header {
     position: static;
     display: inline-block; }
   main {
-    width: 100vw;
     padding: 1em;
     background-size: cover;
     display: inline-block; }
@@ -178,12 +185,15 @@ button {
     height: 70%; }
   .map {
     width: 90%; }
+  .juntar {
+    display: inline;
+    width: 100%; }
   footer {
     font-size: 8px;
     color: white;
     background-color: black; } }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 990px) and (min-width: 578px) {
   header {
     position: static;
     display: inline-block; }
@@ -200,6 +210,11 @@ button {
     height: 70%; }
   .map {
     width: 90%; }
+  .juntar {
+    display: inline;
+    width: 100%; }
+  input {
+    width: 50%; }
   footer {
     font-size: 8px;
     color: white;

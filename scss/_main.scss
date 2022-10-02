@@ -107,6 +107,8 @@ main {
 .galeria {
     height: 300px;
     width: 400px;
+    max-width: 70%;
+    max-height: 50%;
     transition: height 1s, width 1s;
 }
 
@@ -163,6 +165,10 @@ button {
         padding: 1em;
         background-size: cover;
         display: inline-block;
+    }
+    .galeria {
+        width: 50%;
+        height: 70%;
     }
     footer {
         font-size: 8px;
